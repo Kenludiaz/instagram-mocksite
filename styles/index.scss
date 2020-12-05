@@ -1,3 +1,32 @@
-* {
+// Some elements have different default paddings and/or
+// margins depending on the browser, and so, it is common
+// practice to start everything at 0 like the lines below.
+*,
+*::after,
+*::before {
     margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+.bio {
+    .bio--username {
+        display: inline-block;
+    }
+    .bio--btn {
+        padding: .75rem 1rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 5px;
+    }
+    .bio--stats {
+        p {
+            display: inline-block;
+            margin-right: 1rem;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
 }

@@ -1,4 +1,31 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.bio .bio--username {
+  display: inline-block;
+}
+
+.bio .bio--btn {
+  padding: .75rem 1rem;
+  display: inline-block;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+.bio .bio--stats p {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.bio .bio--stats p span {
+  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */
