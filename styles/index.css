@@ -29,4 +29,17 @@ body {
 .bio .bio--stats p span {
   font-weight: bold;
 }
+
+.story {
+  margin: 1rem 0;
+}
+
+.story .story--img {
+  border: 2px solid #BBB;
+  padding: 2px;
+}
+
+.story p {
+  padding-left: .55rem;
+}
 /*# sourceMappingURL=index.css.map */

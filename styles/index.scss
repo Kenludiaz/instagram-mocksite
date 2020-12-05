@@ -32,3 +32,14 @@ body {
         }
     }
 }
+.story {
+    margin: 1rem 0;
+    .story--img {
+        // Creates Rings
+        border: 2px solid #BBB;
+        padding: 2px;
+    }
+    p {
+        padding-left: .55rem;
+    }
+}
