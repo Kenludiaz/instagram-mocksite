@@ -7,11 +7,9 @@
     margin: 0;
     padding: 0;
 }
-body {
-    // Helps center the body
-    margin: 0 auto;
-    max-width: 700px;
-}
+// body {
+//     margin: 0 auto;
+// }
 .bio {
     .bio--username {
         display: inline-block;
@@ -32,8 +30,13 @@ body {
         }
     }
 }
+.stories {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .story {
-    margin: 1rem 0;
+    margin: 1rem 1rem;
+    display: inline-block;
     .story--img {
         // Creates Rings
         border: 2px solid #BBB;
@@ -42,4 +45,7 @@ body {
     p {
         padding-left: .55rem;
     }
+}
+.post {
+    display: inline-block;
 }

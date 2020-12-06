@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-    
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/index.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram</title>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
+<body class="container">
     <div class="row bio">
         <h2 class="bio--username">ralphthecorgi</h2>
         <a href="#" class="bio--btn btn-primary">Follow</a>
@@ -25,30 +25,59 @@
         <a href="ralphthecorgi.com" class="bio--link">ralphthecorgi.com</a>
     </div>
     <div class="row stories">
-        <picture class="col-md-2 story" style="display: inline;">
+        <picture class="story">
             <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story">
             <p>My Story</p>
         </picture>
-        <picture class="col-md-2 story" style="display: inline;">
+        <picture class="story">
             <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story">
             <p>My Story</p>
         </picture>        
-        <picture class="col-md-2 story" style="display: inline;">
+        <picture class="story">
             <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story">
             <p>My Story</p>
         </picture>    
-        <picture class="col-md-2 story" style="display: inline;">
+        <picture class="story">
             <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story">
             <p>My Story</p>
         </picture>
-        <picture class="col-md-2 story" style="display: inline;">
+        <picture class="col-md-2 story">
             <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story">
             <p>My Story</p>
         </picture>
     </div>
-    <div class="row">
-        <img src="./pictures/post_uncliked.png" alt="My new post">
-    </div>
-    <div class="row"></div>
+    <a href="./post.html" style="display: inline-block;">
+        <picture class="post col-md-4 col-sm-4 col-xs-1">
+            <source
+            srcset="pictures\post_uncliked__70w.png"
+            media="(max-width: 430px)">
+            <source
+            srcset="pictures\post_uncliked__150w.png"
+            media="(max-width: 800px)">
+            <img src="./pictures/post_uncliked__250w.png" alt="My new post">
+        </picture>
+    </a>
+    <a href="./post.html" style="display: inline-block;">
+        <picture class="post col-md-4 col-sm-4 col-xs-1">
+            <source
+            srcset="pictures\post_uncliked__70w.png"
+            media="(max-width: 430px)">
+            <source
+            srcset="pictures\post_uncliked__150w.png"
+            media="(max-width: 800px)">
+            <img src="./pictures/post_uncliked__250w.png" alt="My new post">
+        </picture>
+    </a>
+    <a href="./post.html" style="display: inline-block;">
+        <picture class="post col-md-4 col-sm-4 col-xs-1">
+            <source
+            srcset="pictures\post_uncliked__70w.png"
+            media="(max-width: 430px)">
+            <source
+            srcset="pictures\post_uncliked__150w.png"
+            media="(max-width: 800px)">
+            <img src="./pictures/post_uncliked__250w.png" alt="My new post">
+        </picture>
+    </a>
 </body>
 </html>
