@@ -47,5 +47,50 @@
     }
 }
 .post {
-    display: inline-block;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    border: 2px solid #EEE;
+
+    
+}
+.post--sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    .post--info {
+        margin-left: 2rem;
+        h2 {
+            display: inline;
+            color: #333;
+            margin: 1rem 2rem;
+        }
+        span {
+            color: blue;
+        }
+        p {
+            margin: 1rem 2rem;
+        }
+        border-bottom: 2px solid #EEE;
+    }
+    .icons {
+        padding-left: 2rem;
+        span {
+            display: inline-block;
+            margin: 1rem;
+        }
+    }
+    .post--actions {    
+        margin: 1rem 2rem;
+        p {
+            font-weight: bold;
+        }
+        span {
+            display: block;
+    
+        }
+
+    }
 }
