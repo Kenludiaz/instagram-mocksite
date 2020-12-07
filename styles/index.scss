@@ -10,7 +10,45 @@
 // body {
 //     margin: 0 auto;
 // }
+
+.header-logo {
+    border-bottom: black;
+    border-width: 2px;
+    margin-left: -9rem;
+    .h1{
+        font-family: 'Oleo Script', cursive;
+        float:left;
+    }
+    .form-control{
+        margin-top: 2rem;
+        margin-left: 13rem;
+    }
+    .house-door{
+            margin-left: 15rem;
+            margin-bottom: -1rem;
+    }
+    .share {
+        margin-left: 2rem;
+        margin-bottom: -1rem;
+    }
+    .explore {
+        margin-left: 2rem;
+        margin-bottom: -1.0625rem;
+    }
+    .heart {
+        margin-left: 2rem;
+        margin-bottom: -1rem;
+    }
+}
+
 .bio {
+    .avatar{
+        margin-left: -19rem;
+        float:left;
+        flex-wrap: nowrap;
+
+    }
+    margin-left: 16rem;
     .bio--username {
         display: inline-block;
     }
@@ -21,6 +59,7 @@
         border-radius: 5px;
     }
     .bio--stats {
+        
         p {
             display: inline-block;
             margin-right: 1rem;
@@ -28,6 +67,14 @@
                 font-weight: bold;
             }
         }
+    }
+    .bio--name{
+        font-size: 15px;
+        font-weight: bold;
+        height: 1rem;
+    }
+    .bio--paragraph {
+        height: 1rem;
     }
 }
 .stories {

@@ -6,13 +6,43 @@
         <title>Instagram</title>
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body class="container">
+    <div class="header-logo">
+        <h1 style="float:left;font-family: 'Oleo Script', cursive;" class="logo">Instagram</h1>
+			<form style="display:inline-block">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        <!-- Home button -->
+        <svg style="display:inline-block" width="2em" height="2em" viewBox="0 0 16 16" class="house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        </svg>
+        <!-- Share button -->
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="share" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"/>
+        </svg>
+        <!-- ExplorePage button -->
+        <svg width="2em" height="2.0625em" viewBox="0 0 16 17" class="explore" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            <path d="M6.94 7.44l4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+        </svg>
+        <!-- Share button -->
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg>
+    </div>
     <div class="row bio">
+        <h3 class="avatar">
+            <picture class="story" >
+                <img src="./pictures/stories__60w.jpg" class="img-circle story--img" alt="Picture of my story" width="150">
+            </picture>
+        </h3>
         <h2 class="bio--username">ralphthecorgi</h2>
         <a href="#" class="bio--btn btn-primary">Follow</a>
         <div class="bio--stats">
@@ -20,7 +50,7 @@
             <p><span>320k</span> followers</p>
             <p><span>901</span> following</p>
         </div>
-        <h1 class="bio--name"">Ralph the Corgi</h1>
+        <h1 class="bio--name">Ralph the Corgi</h1>
         <p class="bio--paragraph">I’m a 7 year old pup with a handsome loaf of a big brother named George.</p>
         <a href="ralphthecorgi.com" class="bio--link">ralphthecorgi.com</a>
     </div>
